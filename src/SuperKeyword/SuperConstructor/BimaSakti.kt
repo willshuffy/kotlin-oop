@@ -32,6 +32,6 @@ class Mars(name: String, radius: Int): BimaSakti(name, "middle planet", radius){
     /*
         - contoh tidak menggunakan super constructor
         - jika class memiliki primary constructor, maka tidak bisa mengakses construcor pada parent class dengan menggunakan keywrd super
-        - cukup menggunakan keyword this saja pada primary constructor utk mengakses constructor parent class
+        - cukup dengan mengextend saja pada primary constructor utk mengakses constructor parent class
      */
 }
